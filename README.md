@@ -45,11 +45,11 @@
 |:heavy_check_mark:|Initial Structure|
 |:x:|Create a global CSS|
 |:x:|Create Nagivator Component|
-|:x:|Create Header Component|
+|:x:|Create Pricing Component|
 |:x:|Create Recipes Component|
-|:x:|Create About Component|
-|:x:|Create Works Component|
-|:x:|Create Download Component|
+|:x:|Create GoGreen Component|
+|:x:|Create HowItWorks Component|
+|:x:|Create DownloadApp Component|
 |:x:|Create Footer Component|
 |:x:|Create react routes|
 |:x:|Create Landing Page|
