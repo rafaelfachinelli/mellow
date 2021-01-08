@@ -19,6 +19,7 @@ export const Container = styled.div`
   .nav__list {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     list-style: none;
