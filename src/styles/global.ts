@@ -17,6 +17,8 @@ export default createGlobalStyle`
   --color-placeholder-input: #7B7B7B;
 
   --color-selection: #2BCFA2;
+  
+  font-size: 62.5%;
 }
 
 * {
@@ -28,7 +30,6 @@ export default createGlobalStyle`
 body {
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
-  font-size: 62.5%;
 }
 
 body, input, button {
