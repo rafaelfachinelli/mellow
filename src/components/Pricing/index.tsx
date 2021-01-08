@@ -9,7 +9,7 @@ import plan3Img from '../../images/plan_3.svg';
 
 export default function Pricing() {
   return (
-    <Container>
+    <Container id='pricing'>
       <div className='header__image'>
         <img src={headerImg} alt="Pricing Plans"/>
       </div>
