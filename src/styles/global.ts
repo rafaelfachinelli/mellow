@@ -3,8 +3,9 @@ import { createGlobalStyle } from 'styled-components';
 export default createGlobalStyle`
 
 :root {
-  --color-primary: #2BCFA2;
   --color-red: #DF3558;
+
+  --color-primary: #2BCFA2;
 
   --color-text-title: #00A35E;
   --color-text-lighter: #FFFFFF;
@@ -14,6 +15,8 @@ export default createGlobalStyle`
   --color-background-footer: #3B3B3B;
 
   --color-placeholder-input: #7B7B7B;
+
+  --color-selection: #2BCFA2;
 }
 
 * {
@@ -25,33 +28,15 @@ export default createGlobalStyle`
 body {
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
+  font-size: 62.5%;
+}
+
+body, input, button {
+  font-family: 'Open Sans';
 }
 
 ::selection {
-  background: red;
-}
-
-/*Phone*/
-@media (min-width: 320px) 
-  and (max-width: 479px) {
-  :root {
-    font-size: 50%;
-  }
-}
-
-/*Tablet*/
-@media (min-width: 480px) 
-  and (max-width: 1023px) {
-  :root {
-    font-size: 56.25%;
-  }
-}
-
-/*Desktop*/
-@media (min-width: 1024px) {
-  :root {
-    font-size: 62.5%;
-  }
+  background: var(--color-selection);
 }
 
 /* @font-face {
