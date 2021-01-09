@@ -28,28 +28,29 @@ export const Container = styled.div`
 
   .face--back {
     width: 368px;
+    height: 448px;
     position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1.6rem;
+    padding: 2rem;
     transform: translateX(0px);
     opacity: 0;
     z-index: -1;
 
     background: #fff;
-    border-radius: 1.5rem;
+    border-radius: 0 1.5rem 1.5rem 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 6px, rgba(0, 0, 0, 0.1) 0px 3px 6px;
   }
 
   .recipe__details .face--back {
-    transform: translateX(368px);
+    transform: translateX(340px);
     opacity: 1;
   }
 
   .recipe img {
     max-width: 368px;
-    transition: .5s;
   }
 
   .recipe__details {
