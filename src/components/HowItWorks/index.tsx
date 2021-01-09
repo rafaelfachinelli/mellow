@@ -4,7 +4,7 @@ import { Container } from './styles';
 
 export default function HowItWorks() {
   return (
-    <Container id='#howitworks'>
+    <Container id='howItWorks'>
       <Carousel/>
     </Container>
   );
