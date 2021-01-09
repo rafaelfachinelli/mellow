@@ -34,6 +34,12 @@ export default function Carousel() {
     },
   ];
 
+  function recipeClick(e) {
+    e.target.parentElement.parentElement.parentElement.classList.toggle('recipe__details');
+    console.log(e.target.parentElement.parentElement.parentElement);
+    console.log(e);
+  }
+
   return (
     <Container>
       <Slick
@@ -44,30 +50,135 @@ export default function Carousel() {
         responsive={responsive}
         focusOnSelect
         pauseOnFocus
+        variableWidth
       >
-        <div className='recipe'>
-          <img src={recipe0Img} alt="Recipe 0"/>
+        <div className='recipe' onClick={recipeClick}>
+          <div className='recipe__face face--front'>
+            <img src={recipe0Img} alt="Recipe 0"/>
+            <div className='recipe__face face--back'>
+              <h1 className='recipe__name'>Recipe Name Goes Here</h1>
+              <p className='recipe__description'>
+                Culpa qui officia deserunt mollit anim id est laborum. 
+                Sed ut perspiciatis unde omnis iste natus error sit 
+                voluptartem accusantium doloremque laudantium.
+              </p>
+              <div className='recipe__button'>
+                <button>GO TO RECIPE</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className='recipe'>
-          <img src={recipe1Img} alt="Recipe 1"/>
+        <div className='recipe' onClick={recipeClick}>
+          <div className='recipe__face face--front'>
+            <img src={recipe1Img} alt="Recipe 1"/>
+            <div className='recipe__face face--back'>
+              <h1 className='recipe__name'>Recipe Name Goes Here</h1>
+              <p className='recipe__description'>
+                Culpa qui officia deserunt mollit anim id est laborum. 
+                Sed ut perspiciatis unde omnis iste natus error sit 
+                voluptartem accusantium doloremque laudantium.
+              </p>
+              <div className='recipe__button'>
+                <button>GO TO RECIPE</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className='recipe'>
-          <img src={recipe2Img} alt="Recipe 2"/>
+        <div className='recipe' onClick={recipeClick}>
+          <div className='recipe__face face--front'>
+            <img src={recipe2Img} alt="Recipe 0"/>
+            <div className='recipe__face face--back'>
+              <h1 className='recipe__name'>Recipe Name Goes Here</h1>
+              <p className='recipe__description'>
+                Culpa qui officia deserunt mollit anim id est laborum. 
+                Sed ut perspiciatis unde omnis iste natus error sit 
+                voluptartem accusantium doloremque laudantium.
+              </p>
+              <div className='recipe__button'>
+                <button>GO TO RECIPE</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className='recipe'>
-          <img src={recipe3Img} alt="Recipe 3"/>
+        <div className='recipe' onClick={recipeClick}>
+          <div className='recipe__face face--front'>
+            <img src={recipe3Img} alt="Recipe 0"/>
+            <div className='recipe__face face--back'>
+              <h1 className='recipe__name'>Recipe Name Goes Here</h1>
+              <p className='recipe__description'>
+                Culpa qui officia deserunt mollit anim id est laborum. 
+                Sed ut perspiciatis unde omnis iste natus error sit 
+                voluptartem accusantium doloremque laudantium.
+              </p>
+              <div className='recipe__button'>
+                <button>GO TO RECIPE</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className='recipe'>
-          <img src={recipe0Img} alt="Recipe 0"/>
+        <div className='recipe' onClick={recipeClick}>
+          <div className='recipe__face face--front'>
+            <img src={recipe0Img} alt="Recipe 0"/>
+            <div className='recipe__face face--back'>
+              <h1 className='recipe__name'>Recipe Name Goes Here</h1>
+              <p className='recipe__description'>
+                Culpa qui officia deserunt mollit anim id est laborum. 
+                Sed ut perspiciatis unde omnis iste natus error sit 
+                voluptartem accusantium doloremque laudantium.
+              </p>
+              <div className='recipe__button'>
+                <button>GO TO RECIPE</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className='recipe'>
-          <img src={recipe1Img} alt="Recipe 1"/>
+        <div className='recipe' onClick={recipeClick}>
+          <div className='recipe__face face--front'>
+            <img src={recipe1Img} alt="Recipe 0"/>
+            <div className='recipe__face face--back'>
+              <h1 className='recipe__name'>Recipe Name Goes Here</h1>
+              <p className='recipe__description'>
+                Culpa qui officia deserunt mollit anim id est laborum. 
+                Sed ut perspiciatis unde omnis iste natus error sit 
+                voluptartem accusantium doloremque laudantium.
+              </p>
+              <div className='recipe__button'>
+                <button>GO TO RECIPE</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className='recipe'>
-          <img src={recipe2Img} alt="Recipe 2"/>
+        <div className='recipe' onClick={recipeClick}>
+          <div className='recipe__face face--front'>
+            <img src={recipe2Img} alt="Recipe 0"/>
+            <div className='recipe__face face--back'>
+              <h1 className='recipe__name'>Recipe Name Goes Here</h1>
+              <p className='recipe__description'>
+                Culpa qui officia deserunt mollit anim id est laborum. 
+                Sed ut perspiciatis unde omnis iste natus error sit 
+                voluptartem accusantium doloremque laudantium.
+              </p>
+              <div className='recipe__button'>
+                <button>GO TO RECIPE</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className='recipe'>
-          <img src={recipe3Img} alt="Recipe 3"/>
+        <div className='recipe' onClick={recipeClick}>
+          <div className='recipe__face face--front'>
+            <img src={recipe3Img} alt="Recipe 0"/>
+            <div className='recipe__face face--back'>
+              <h1 className='recipe__name'>Recipe Name Goes Here</h1>
+              <p className='recipe__description'>
+                Culpa qui officia deserunt mollit anim id est laborum. 
+                Sed ut perspiciatis unde omnis iste natus error sit 
+                voluptartem accusantium doloremque laudantium.
+              </p>
+              <div className='recipe__button'>
+                <button>GO TO RECIPE</button>
+              </div>
+            </div>
+          </div>
         </div>
       </Slick>
     </Container>
