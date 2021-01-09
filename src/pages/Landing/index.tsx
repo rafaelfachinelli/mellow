@@ -3,6 +3,7 @@ import Pricing from '../../components/Pricing';
 import Recipes from '../../components/Recipes';
 import GoGreen from '../../components/GoGreen';
 import HowItWorks from '../../components/HowItWorks';
+import DownloadApp from '../../components/DownloadApp';
 
 import { Container } from './styles';
 
@@ -14,6 +15,7 @@ export default function Landing() {
       <Recipes/>
       <GoGreen/>
       <HowItWorks/>
+      <DownloadApp/>
     </Container>
   );
 }
