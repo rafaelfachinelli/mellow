@@ -43,12 +43,12 @@
 |State|Task|
 |:---:|:---|
 |:heavy_check_mark:|Initial Structure|
-|:x:|Create a global CSS|
-|:x:|Create Nagivator Component|
-|:x:|Create Pricing Component|
-|:x:|Create Recipes Component|
-|:x:|Create GoGreen Component|
-|:x:|Create HowItWorks Component|
+|:heavy_check_mark:|Create a global CSS|
+|:heavy_check_mark:|Create Nagivator Component|
+|:heavy_check_mark:|Create Pricing Component|
+|:heavy_check_mark:|Create Recipes Component|
+|:heavy_check_mark:|Create GoGreen Component|
+|:heavy_check_mark:|Create HowItWorks Component|
 |:x:|Create DownloadApp Component|
 |:x:|Create Footer Component|
 |:x:|Create react routes|
