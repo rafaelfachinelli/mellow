@@ -1,13 +1,13 @@
 import Carousel from './Carousel';
 
-import howItWorksImg from '../../images/howitworks.png';
+import goGreenImg from '../../images/gogreen.png';
 
 import { Container } from './styles';
 
 export default function GoGreen() {
   return (
     <Container id='howItWorks'>
-      <img src={howItWorksImg} alt="How It Works"/>
+      <img src={goGreenImg} alt="How It Works"/>
       <Carousel/>
     </Container>
   );
