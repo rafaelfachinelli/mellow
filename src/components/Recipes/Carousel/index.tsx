@@ -36,8 +36,6 @@ export default function Carousel() {
 
   function recipeClick(e) {
     e.target.parentElement.parentElement.parentElement.classList.toggle('recipe__details');
-    console.log(e.target.parentElement.parentElement.parentElement);
-    console.log(e);
   }
 
   return (

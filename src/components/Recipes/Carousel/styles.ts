@@ -13,11 +13,6 @@ export const Container = styled.div`
     transition: .5s;
   }
 
-  .recipe__details {
-    width: 736px;
-    display: flex;
-  }
-
   .recipe__face {
     transition: .5s;
   }
@@ -47,7 +42,7 @@ export const Container = styled.div`
     border-radius: 1.5rem;
   }
 
-  .face--front:hover .face--back {
+  .recipe__details .face--back {
     transform: translateX(368px);
     opacity: 1;
   }
@@ -55,6 +50,11 @@ export const Container = styled.div`
   .recipe img {
     max-width: 368px;
     transition: .5s;
+  }
+
+  .recipe__details {
+    width: 736px;
+    display: flex;
   }
 
   .recipe__name {
