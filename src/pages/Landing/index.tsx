@@ -4,6 +4,7 @@ import Recipes from '../../components/Recipes';
 import GoGreen from '../../components/GoGreen';
 import HowItWorks from '../../components/HowItWorks';
 import DownloadApp from '../../components/DownloadApp';
+import Footer from '../../components/Footer';
 
 import { Container } from './styles';
 
@@ -16,6 +17,7 @@ export default function Landing() {
       <GoGreen/>
       <HowItWorks/>
       <DownloadApp/>
+      <Footer/>
     </Container>
   );
 }
