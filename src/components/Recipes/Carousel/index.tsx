@@ -55,6 +55,18 @@ export default function Carousel() {
         <div className='recipe'>
           <img src={recipe3Img} alt="Recipe 3"/>
         </div>
+        <div className='recipe'>
+          <img src={recipe0Img} alt="Recipe 0"/>
+        </div>
+        <div className='recipe'>
+          <img src={recipe1Img} alt="Recipe 1"/>
+        </div>
+        <div className='recipe'>
+          <img src={recipe2Img} alt="Recipe 2"/>
+        </div>
+        <div className='recipe'>
+          <img src={recipe3Img} alt="Recipe 3"/>
+        </div>
       </Slick>
     </Container>
   )

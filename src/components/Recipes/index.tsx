@@ -13,9 +13,6 @@ export default function Recipes() {
         eaque ipsa quae ab illo inventore veritatis et quasi ropeior 
         architecto beatae vitae dicta sunt
       </p>
-      <div className='recipes__carousel'>
-
-      </div>
       <Carousel/>
     </Container>
   )

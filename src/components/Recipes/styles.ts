@@ -16,8 +16,10 @@ export const Container = styled.div`
   }
 
   .recipes__description {
-    color: var(--color-text-darker);
     max-width: 1320px;
+    margin: 2rem 0 5rem 0;
+
+    color: var(--color-text-darker);
     text-align: center;
     font-size: 2rem;
   }
