@@ -1,7 +1,7 @@
 import { Container } from './styles';
 
 import logoImg from '../../images/logo.svg';
-import profileImg from '../../images/profile.jpg';
+import profileImg from '../../images/Navigator/profile.jpg';
 
 export default function Navigator() {
   return (

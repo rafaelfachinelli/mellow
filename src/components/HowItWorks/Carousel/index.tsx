@@ -4,8 +4,8 @@ import 'slick-carousel/slick/slick-theme.css';
 
 import { Container } from './styles';
 
-import howItWorks1Img from '../../../images/howitworks_1.png';
-import howItWorks2Img from '../../../images/howitworks_2.jpg';
+import howItWorks1Img from '../../../images/HowItWorks/Carousel/howitworks_1.png';
+import howItWorks2Img from '../../../images/HowItWorks/Carousel/howitworks_2.jpg';
 
 export default function Carousel() {
   return (

@@ -2,16 +2,16 @@ import Plan from './Plan';
 
 import { Container } from './styles';
 
-import headerImg from '../../images/header.png';
-import plan1Img from '../../images/plan_1.svg';
-import plan2Img from '../../images/plan_2.svg';
-import plan3Img from '../../images/plan_3.svg';
+import pricingImg from '../../images/Pricing/pricing.png';
+import plan1Img from '../../images/Pricing/plan_1.svg';
+import plan2Img from '../../images/Pricing/plan_2.svg';
+import plan3Img from '../../images/Pricing/plan_3.svg';
 
 export default function Pricing() {
   return (
     <Container id='pricing'>
       <div className='header__image'>
-        <img src={headerImg} alt="Pricing Plans"/>
+        <img src={pricingImg} alt="Pricing Plans"/>
       </div>
       <div className='header__content'>
         <h1 className='header__title'>Your subscription has expired…</h1>

@@ -2,10 +2,10 @@ import Slick from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-import recipe0Img from '../../../images/recipe_0.png';
-import recipe1Img from '../../../images/recipe_1.png';
-import recipe2Img from '../../../images/recipe_2.png';
-import recipe3Img from '../../../images/recipe_3.png';
+import recipe0Img from '../../../images/Recipes/Carousel/recipe_0.png';
+import recipe1Img from '../../../images/Recipes/Carousel/recipe_1.png';
+import recipe2Img from '../../../images/Recipes/Carousel/recipe_2.png';
+import recipe3Img from '../../../images/Recipes/Carousel/recipe_3.png';
 
 import { Container } from './styles';
 

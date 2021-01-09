@@ -2,9 +2,9 @@ import Slick from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-import partner1Img from '../../../images/partner_1.svg';
-import partner2Img from '../../../images/partner_2.svg';
-import partner3Img from '../../../images/partner_3.svg';
+import partner1Img from '../../../images/GoGreen/Carousel/partner_1.svg';
+import partner2Img from '../../../images/GoGreen/Carousel/partner_2.svg';
+import partner3Img from '../../../images/GoGreen/Carousel/partner_3.svg';
 
 import { Container } from './styles';
 

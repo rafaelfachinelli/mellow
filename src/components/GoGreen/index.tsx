@@ -1,6 +1,6 @@
 import Carousel from './Carousel';
 
-import goGreenImg from '../../images/gogreen.png';
+import goGreenImg from '../../images/GoGreen/gogreen.png';
 
 import { Container } from './styles';
 
