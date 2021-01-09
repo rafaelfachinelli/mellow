@@ -10,6 +10,7 @@ export const Container = styled.div`
   padding: 0 3.5rem;
   position: sticky;
   top: 0;
+  z-index: 1;
 
   background: var(--color-primary);
 
