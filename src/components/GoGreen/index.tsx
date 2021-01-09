@@ -6,8 +6,8 @@ import { Container } from './styles';
 
 export default function GoGreen() {
   return (
-    <Container id='howItWorks'>
-      <img src={goGreenImg} alt="How It Works"/>
+    <Container id='gogreen'>
+      <img src={goGreenImg} alt="Go Green"/>
       <Carousel/>
     </Container>
   );

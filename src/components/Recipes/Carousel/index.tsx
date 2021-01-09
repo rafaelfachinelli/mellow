@@ -42,6 +42,8 @@ export default function Carousel() {
         centerMode
         slidesToShow={5}
         responsive={responsive}
+        focusOnSelect
+        pauseOnFocus
       >
         <div className='recipe'>
           <img src={recipe0Img} alt="Recipe 0"/>
