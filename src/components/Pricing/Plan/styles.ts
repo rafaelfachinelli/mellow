@@ -25,6 +25,7 @@ export const Container = styled.div`
 
   .plan__banner {
     width: 100%;
+    height: 114px;
     display: flex;
     justify-content: center;
     margin: 2rem 0;
