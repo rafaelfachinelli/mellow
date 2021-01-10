@@ -43,12 +43,12 @@ export const Container = styled.div`
     margin-top: 2rem;
   }
 
+  .download__stores a:first-child {
+    margin-right: 1rem;
+  }
+
   .download__stores img {
     width: 9.6rem;
     height: 3.2rem;
-  }
-
-  .download__stores img:first-child {
-    margin-right: 1rem;
   }
 `;

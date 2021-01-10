@@ -18,8 +18,20 @@ export default function DownloadApp() {
         <Button>LET'S TRY</Button>
         <p className='download__app'>Download on iOS and android for free</p>
         <div className='download__stores'>
-          <img src={appStoreImg} alt="Mellow App Store"/>
-          <img src={googlePlayImg} alt="Mellow Google Play"/>
+          <a
+            href="https://www.apple.com/br/app-store/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={appStoreImg} alt="Mellow App Store"/>
+          </a>
+          <a
+            href="https://play.google.com/store?hl=pt_BR&gl=US"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={googlePlayImg} alt="Mellow Google Play"/>
+          </a>
         </div>
       </div>
       <div className='download__image'>
