@@ -44,16 +44,21 @@
 |:---:|:---|
 |:heavy_check_mark:|Initial Structure|
 |:heavy_check_mark:|Create a global CSS|
-|:heavy_check_mark:|Create Nagivator Component|
-|:heavy_check_mark:|Create Pricing Component|
-|:heavy_check_mark:|Create Recipes Component|
-|:heavy_check_mark:|Create GoGreen Component|
-|:heavy_check_mark:|Create HowItWorks Component|
-|:x:|Create DownloadApp Component|
-|:x:|Create Footer Component|
-|:x:|Create react routes|
-|:x:|Create Landing Page|
-|:x:|Responsive Design|
+|:heavy_check_mark:|Create Nagivator component|
+|:heavy_check_mark:|Create Button component|
+|:heavy_check_mark:|Create Pricing component|
+|:heavy_check_mark:|Create Recipes component|
+|:heavy_check_mark:|Create Recipe component|
+|:heavy_check_mark:|Create GoGreen component|
+|:heavy_check_mark:|Create HowItWorks component|
+|:heavy_check_mark:|Create DownloadApp component|
+|:heavy_check_mark:|Create Footer component|
+|:heavy_check_mark:|Create react routes|
+|:heavy_check_mark:|Create Landing page|
+|:heavy_check_mark:|Responsive design: tablet|
+|:heavy_check_mark:|Responsive design: mobile|
+|:heavy_check_mark:|Responsive design: desktop|
+|:heavy_check_mark:|Responsive design: ultra wide|
 
 </details>
 </div>
@@ -105,6 +110,8 @@ The following tools is used to build this project:
 |[CSS3]()|
 |[TypeScript](https://www.typescriptlang.org)|
 |[React](https://reactjs.org)|
+|[React Slick](https://react-slick.neostack.com)|
+|[React Scroll](https://www.npmjs.com/package/react-scroll)|
 
 </div>
 
