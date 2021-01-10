@@ -26,6 +26,8 @@
 
 <p align="center">
   <kbd><img alt="Mellow in Ultra Wide" src=".github/ultra_demo.gif""/></kbd>
+  <kbd><img alt="Mellow in Desktop" src=".github/desktop_demo.gif""/></kbd>
+  <kbd><img alt="Mellow in Mobile" src=".github/mobile_demo.gif""/></kbd>
 <p>
   
 ---
