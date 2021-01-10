@@ -9,6 +9,7 @@ export const Container = styled.div`
   }
 
   .works__title {
+    font-family: 'EksellDisplayMedium';
     font-size: 5rem;
     font-weight: 600;
   }
@@ -30,6 +31,7 @@ export const Container = styled.div`
   }
 
   .about__title {
+    font-family: 'EksellDisplayMedium';
     font-size: 5rem;
     font-weight: 600;
   }

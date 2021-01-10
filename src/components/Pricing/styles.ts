@@ -19,6 +19,7 @@ export const Container = styled.div`
 
   .header__title {
     color: var(--color-text-lighter);
+    font-family: 'EksellDisplaySmall';
     font-size: 5rem;
     font-weight: 500;
   }

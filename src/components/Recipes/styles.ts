@@ -10,6 +10,7 @@ export const Container = styled.div`
 
   .recipes__title {
     color: var(--color-text-darker);
+    font-family: 'EksellDisplayMedium';
     font-size: 5rem;
     font-weight: 500;
   }

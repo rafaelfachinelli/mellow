@@ -28,6 +28,7 @@ export const Container = styled.div`
     margin-bottom: 2.5rem;
 
     color: var(--color-text-lighter);
+    font-family: 'EksellDisplayMedium';
     font-size: 5rem;
   }
 

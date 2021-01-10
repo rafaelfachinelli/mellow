@@ -17,6 +17,7 @@ export const Container = styled.div`
 
   .download__title {
     color: var(--color-text-title);
+    font-family: 'EksellDisplayMedium';
     font-size: 8.6rem;
     font-weight: 400;
   }
