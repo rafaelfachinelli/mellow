@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   .recipe {
     height: 100%;
+    transition: .5s;
   }
 
   .recipe img {
@@ -39,12 +40,35 @@ export const Container = styled.div`
     box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 6px, rgba(0, 0, 0, 0.1) 0px 3px 6px;
   }
 
-  .recipe__details {
-    width: 736px;
-    display: flex;
+  .recipe__details--show {
+    animation: showRecipeDetails .5s forwards;
   }
 
-  .recipe__details .face--back {
+  .recipe__details--hide {
+    animation: hideRecipeDetails .5s forwards;
+  }
+
+  @keyframes showRecipeDetails {
+    from {
+      width: 368px;
+    }
+
+    to {
+      width: 736px;
+    }
+  }
+
+  @keyframes hideRecipeDetails {
+    from {
+      width: 736px;
+    }
+
+    to {
+      width: 368px;
+    }
+  }
+
+  .recipe__details--show .face--back {
     transform: translateX(340px);
     opacity: 1;
   }

@@ -4,12 +4,13 @@ import { Container } from './styles';
 
 export default function Recipe(props) {
   function recipeClick(e) {
-    e.target.parentElement.parentElement.classList.toggle('recipe__details');
+    e.target.parentElement.parentElement.classList.toggle('recipe__details--show');
+    e.target.parentElement.parentElement.classList.toggle('recipe__details--hide');
   }
 
   return (
     <Container>
-      <div className='recipe' onClick={recipeClick}>
+      <div className='recipe recipe__details--hide' onClick={recipeClick}>
         <div className='recipe__face face--front'>
           <img src={props.image} alt={props.name}/>
           <div className='recipe__face face--back'>
