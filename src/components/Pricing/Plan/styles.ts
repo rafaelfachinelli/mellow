@@ -44,7 +44,7 @@ export const Container = styled.div`
   }
 
   .benefits__item  {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
 
   .plan__checks {
@@ -54,7 +54,7 @@ export const Container = styled.div`
   }
 
   .check__item {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
   }
 
   .plan__button {
@@ -69,11 +69,11 @@ export const Container = styled.div`
     margin-top: 5rem;
 
     .benefits__item  {
-      margin-bottom: .8rem;
+      margin-bottom: .5rem;
     }
 
     .check__item {
-      margin-bottom: .8rem;
+      margin-bottom: .5rem;
     }
   }
 
@@ -83,11 +83,11 @@ export const Container = styled.div`
     margin-top: 5rem;
 
     .benefits__item  {
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem;
     }
 
     .check__item {
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem;
     }
   }
 `;
