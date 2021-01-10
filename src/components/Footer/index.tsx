@@ -1,3 +1,5 @@
+import { Link, animateScroll as scroll } from 'react-scroll';
+
 import { Container } from './styles';
 
 import logoImg from '../../images/logo.svg';
@@ -27,7 +29,14 @@ export default function Footer() {
           </ul>
         </nav>
         <div className='footer__logo'>
-          <img src={logoImg} alt="Mellow"/>
+          <Link
+            to='pricing'
+            smooth
+            duration={500}
+            offset={50}
+          >
+            <img src={logoImg} alt="Mellow"/>
+          </Link>
         </div>
       </div>
       <div className='footer__content'>
