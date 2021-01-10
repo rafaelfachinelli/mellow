@@ -1,3 +1,5 @@
+import Button from '../Button';
+
 import illustrationImg from '../../images/DownloadApp/illustration.svg';
 import appStoreImg from '../../images/DownloadApp/appstore.png';
 import googlePlayImg from '../../images/DownloadApp/googleplay.png';
@@ -13,7 +15,7 @@ export default function DownloadApp() {
           Culpa qui officia deserunt mollit anim id est laborum. 
           Sed ut perspiciatis unde omnis iste natus error sit.
         </p>
-        <button className='download__button'>LET'S TRY</button>
+        <Button>LET'S TRY</Button>
         <p className='download__app'>Download on iOS and android for free</p>
         <div className='download__stores'>
           <img src={appStoreImg} alt="Mellow App Store"/>

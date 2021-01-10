@@ -1,3 +1,5 @@
+import Button from '../../Button';
+
 import { Container } from './styles';
 
 export default function Plan(props) {
@@ -25,7 +27,7 @@ export default function Plan(props) {
         </ul>
       </div>
       <div className='plan__button'>
-        <button>LET'S TRY</button>
+        <Button>LET'S TRY</Button>
       </div>
     </Container>
   );

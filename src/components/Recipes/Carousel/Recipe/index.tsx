@@ -1,3 +1,5 @@
+import Button from '../../../Button';
+
 import { Container } from './styles';
 
 export default function Recipe(props) {
@@ -13,9 +15,7 @@ export default function Recipe(props) {
           <div className='recipe__face face--back'>
             <h1 className='recipe__name'>{props.name}</h1>
             <p className='recipe__description'>{props.description}</p>
-            <div className='recipe__button'>
-              <button>GO TO RECIPE</button>
-            </div>
+            <Button>GO TO RECIPE</Button>
           </div>
         </div>
       </div>
