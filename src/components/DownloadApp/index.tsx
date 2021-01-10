@@ -8,7 +8,7 @@ import { Container } from './styles';
 
 export default function DownloadApp() {
   return (
-    <Container>
+    <Container id='downloadapp'>
       <div className='download__content'>
         <h1 className='download__title'>Delicious Planet-friendly food</h1>
         <p className='download__description'>

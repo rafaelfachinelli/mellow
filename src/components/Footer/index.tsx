@@ -10,21 +10,46 @@ import pinterestImg from '../../images/Footer/Social/pinterest.svg';
 
 export default function Footer() {
   return (
-    <Container>
+    <Container id='footer'>
       <div className='footer__navigator'>
         <nav className='footer__nav'>
           <ul className='footer__list'>
             <li className='footer__item'>
-              <a href="#goGreen">ABOUT US</a>
+            <Link
+              to="goGreen"
+              smooth
+              duration={500}
+            >
+              ABOUT US
+            </Link>
             </li>
             <li className='footer__item'>
-              <a href="#pricing">CONTACT</a>
+            <Link
+              to="footer"
+              smooth
+              duration={500}
+            >
+              CONTACT
+            </Link>
             </li>
             <li className='footer__item'>
-              <a href="#goGreen">GO GREEN</a>
+            <Link
+              to="goGreen"
+              smooth
+              duration={500}
+            >
+              GO GREEN
+            </Link>
             </li>
             <li className='footer__item'>
-              <a href="#pricing">TERMS & CONDITIONS</a>
+            <Link
+              to="pricing"
+              smooth
+              duration={500}
+              offset={50}
+            >
+              TERMS & CONDITIONS
+            </Link>
             </li>
           </ul>
         </nav>
