@@ -30,9 +30,26 @@ export default function Carousel() {
             sequi nesciunt. Neque porro quisquam est, quepi dolorem ipsum.
           </p>
           <div className='works__partners'>
+            <a
+              href="https://www.waitrose.com"
+              target="_blank"
+              rel="noopener noreferrer">
             <img src={partner1Img} alt="Waitrose"/>
-            <img src={partner2Img} alt="TESCO"/>
-            <img src={partner3Img} alt="ocado"/>
+            </a>
+            <a
+              href="https://www.tesco.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={partner2Img} alt="TESCO"/>
+            </a>
+            <a
+              href="https://www.ocado.com/webshop/startWebshop.do"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={partner3Img} alt="ocado"/>
+            </a>
           </div>
         </div>
         <div className='about'>

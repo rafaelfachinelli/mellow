@@ -26,6 +26,10 @@ export const Container = styled.div`
     flex-direction: row;
   }
 
+  .works__partners a {
+    cursor: pointer;
+  }
+
   .works__partners img {
     margin-right: 6rem;
   }
