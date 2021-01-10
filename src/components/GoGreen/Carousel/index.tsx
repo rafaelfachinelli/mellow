@@ -15,7 +15,6 @@ export default function Carousel() {
         infinite
         centerMode
         slidesToShow={1}
-        centerPadding='150px'
       >
         <div className='works'>
           <h1 className='works__title'>Go Green</h1>

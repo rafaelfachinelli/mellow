@@ -16,56 +16,64 @@ export default function Navigator() {
         <img className='navigator__logo' src={logoImg} alt="Mellow"/>
       </Link>
       <nav className='nav'>
-        <ul className='nav__list'>
-          <li className='list__item'>
-            <Link
-              activeClass='item__active'
-              to="recipes"
-              spy
-              smooth
-              duration={500}
-              offset={70}
-            >
-              Recipes
-            </Link>
-          </li>
-          <li className='list__item'>
-            <Link
-              activeClass='item__active'
-              to="goGreen"
-              spy
-              smooth
-              duration={500}
-              offset={100}
-            >
-              Go Green
-            </Link>
-          </li>
-          <li className='list__item'>
-            <Link
-              activeClass='item__active'
-              to="pricing"
-              spy
-              smooth
-              duration={500}
-            >
-              Pricing
-            </Link>
-          </li>
-          <li className='list__item'>
-            <Link
-              activeClass='item__active'
-              to="howItWorks"
-              spy
-              smooth
-              duration={500}
-              offset={100}
-            >
-              How it works
-            </Link>
-          </li>
-          <li className='list__profile'><img src={profileImg} alt="Profile"/></li>
-        </ul>
+        <div className='nav__hamburguer'>
+          <input id='hamburguer__checkbox' type="checkbox" />
+          <label htmlFor="hamburguer__checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <ul className='nav__list'>
+            <li className='list__item'>
+              <Link
+                activeClass='item__active'
+                to="recipes"
+                spy
+                smooth
+                duration={500}
+                offset={70}
+              >
+                Recipes
+              </Link>
+            </li>
+            <li className='list__item'>
+              <Link
+                activeClass='item__active'
+                to="goGreen"
+                spy
+                smooth
+                duration={500}
+                offset={100}
+              >
+                Go Green
+              </Link>
+            </li>
+            <li className='list__item'>
+              <Link
+                activeClass='item__active'
+                to="pricing"
+                spy
+                smooth
+                duration={500}
+              >
+                Pricing
+              </Link>
+            </li>
+            <li className='list__item'>
+              <Link
+                activeClass='item__active'
+                to="howItWorks"
+                spy
+                smooth
+                duration={500}
+                offset={100}
+              >
+                How it works
+              </Link>
+            </li>
+            <li className='list__profile'><img src={profileImg} alt="Profile"/></li>
+          </ul>
+        </div>
       </nav>
     </Container>
   );

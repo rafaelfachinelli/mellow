@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  min-height: 97.5rem;
   width: 100%;
+  height: 97.5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -35,5 +35,68 @@ export const Container = styled.div`
   .header__plans {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .plan + .plan {
+    margin-left: 4rem;
+  }
+
+  /*Phone*/
+  @media (min-width: 320px) 
+    and (max-width: 480px) {
+    
+    height: auto;
+    padding-bottom: 9rem;
+
+    .header__title {
+      margin-top: 2rem;
+    }
+    
+    .header__image img {
+      display: none;
+    }
+
+    .header__plans {
+      justify-content: center;
+    }
+
+    .plan + .plan {
+      margin-left: 1rem;
+    }
+  }
+
+  /*Tablet*/
+  @media (min-width: 481px) 
+    and (max-width: 1100px) {
+      
+    height: auto;
+    padding-bottom: 7rem;
+
+    .header__title {
+      margin-top: 2rem;
+    }
+
+    .header__image img {
+      display: none;
+    }
+
+    .header__plans {
+      justify-content: center;
+    }
+
+    .plan + .plan {
+      margin-left: 1rem;
+    }
+  }
+
+  /*Desktop*/
+  @media (min-width: 1101px)
+    and (max-width: 1600px) {
+    
+    height: 70rem;
+    
+    .header__image img {
+      display: none;
+    }
   }
 `;

@@ -12,7 +12,7 @@ export default function Carousel() {
     <Container>
       <Slick
         autoplay
-        autoplaySpeed={7000}
+        autoplaySpeed={6000}
         infinite
         slidesToShow={1}
       >

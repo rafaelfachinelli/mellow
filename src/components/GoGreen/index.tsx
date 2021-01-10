@@ -7,7 +7,7 @@ import { Container } from './styles';
 export default function GoGreen() {
   return (
     <Container id='goGreen'>
-      <img src={goGreenImg} alt="Go Green"/>
+      <img className='gogreen__image' src={goGreenImg} alt="Go Green"/>
       <Carousel/>
     </Container>
   );

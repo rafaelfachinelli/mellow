@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
-  height: 745px;
+  height: 74.5rem;
   padding: 0 3.5rem;
   display: flex;
   flex-direction: column;
@@ -12,11 +12,12 @@ export const Container = styled.div`
   background: var(--color-background-footer);
 
   .footer__navigator {
-    width: 1600px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 7rem;
+    padding: 0 13rem;
   }
 
   .footer__navigator img {
@@ -36,6 +37,7 @@ export const Container = styled.div`
 
   .footer__item a {
     transition: .2s;
+
     cursor: pointer;
   }
 
@@ -47,8 +49,13 @@ export const Container = styled.div`
     margin-left: 4rem;
   }
 
+  .footer__logo {
+    margin-left: 1.5rem;
+  }
+
   .footer__content {
-    width: 1600px;
+    width: 100%;
+    padding: 0 13rem;
   }
 
   .footer__email p {
@@ -116,5 +123,117 @@ export const Container = styled.div`
 
     color: var(--color-text-lighter);
     font-size: 1.2rem;
+  }
+
+  /*Phone*/
+  @media (min-width: 320px) 
+    and (max-width: 480px) {
+
+    height: 70rem;
+    padding: 0;
+
+    .footer__navigator {
+      flex-direction: column-reverse;
+      margin-bottom: 2rem;
+      padding: 0;
+    }
+
+    .footer__list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+
+    .footer__item + .footer__item{
+      margin-left: 0;
+      margin-top: 1rem;
+    }
+
+    .footer__logo {
+      margin-left: 0;
+      margin-bottom: 2rem;
+    }
+    
+    .footer__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+    }
+
+    .footer__content p {
+      text-align: center;
+    }
+
+    .footer__email,
+    .email__input {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .email__input input,
+    .email__input button {
+      border-radius: 1rem;
+    }
+
+    .email__input input {
+      width: 310px;
+    }
+
+    .email__input button {
+      margin-top: 1rem;
+    }
+  }
+
+  /*Tablet*/
+  @media (min-width: 481px) 
+    and (max-width: 1100px) {
+    
+    height: 55rem;
+    padding: 0;
+
+    .footer__navigator {
+      flex-direction: column-reverse;
+      padding: 0;
+    }
+
+    .footer__list {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .footer__logo {
+      margin-left: 0;
+      margin-bottom: 2rem;
+    }
+    
+    .footer__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+    }
+
+    .footer__email {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  /*Desktop*/
+  @media (min-width: 1101px)
+    and (max-width: 1600px) {
+    height: 55rem;
+
+    .footer__navigator {
+      padding: 0 .5rem;
+    }
+
+    .footer__content {
+      padding: 0 .5rem;
+    }
   }
 `;

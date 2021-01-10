@@ -4,8 +4,10 @@ export const Container = styled.div`
   width: 100%;
   overflow: hidden;
 
-  .works, .about {
+  .works,
+  .about {
     max-width: 640px;
+    padding: 1rem;
   }
 
   .works__title {
@@ -31,6 +33,7 @@ export const Container = styled.div`
   }
 
   .works__partners img {
+    max-width: 130px;
     margin-right: 6rem;
   }
 
@@ -45,5 +48,23 @@ export const Container = styled.div`
 
     color: var(--color-text-darker);
     font-size: 2rem;
+  }
+
+  /*Phone*/
+  @media (min-width: 320px) 
+    and (max-width: 480px) {
+    .works__partners img {
+      max-width: 40px;
+      margin-right: 2rem;
+    }
+  }
+
+  /*Tablet*/
+  @media (min-width: 481px) 
+    and (max-width: 1100px) {
+    .works__partners img {
+      max-width: 90px;
+      margin-right: 4rem;
+    }
   }
 `;

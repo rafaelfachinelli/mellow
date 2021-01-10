@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const Container = styled.div`
   width: 27.7rem;
   height: 45.5rem;
-  margin-right: 4rem;
   padding: 1.5rem 2.5rem;
 
   background: #fff;
@@ -45,7 +44,7 @@ export const Container = styled.div`
   }
 
   .benefits__item  {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
   }
 
   .plan__checks {
@@ -55,12 +54,40 @@ export const Container = styled.div`
   }
 
   .check__item {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
   }
 
   .plan__button {
     width: 100%;
     display: flex;
     justify-content: center;
+  }
+
+  /*Phone*/
+  @media (min-width: 320px) 
+    and (max-width: 480px) {
+    margin-top: 5rem;
+
+    .benefits__item  {
+      margin-bottom: .8rem;
+    }
+
+    .check__item {
+      margin-bottom: .8rem;
+    }
+  }
+
+  /*Tablet*/
+  @media (min-width: 481px) 
+    and (max-width: 1100px) {
+    margin-top: 5rem;
+
+    .benefits__item  {
+      margin-bottom: 1.5rem;
+    }
+
+    .check__item {
+      margin-bottom: 1.5rem;
+    }
   }
 `;

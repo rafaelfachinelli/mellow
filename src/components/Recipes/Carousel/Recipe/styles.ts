@@ -87,4 +87,50 @@ export const Container = styled.div`
     font-size: 1.6rem;
     text-align: center;
   }
+
+  /*Phone*/
+  @media (min-width: 320px) 
+    and (max-width: 480px) {
+    .recipe__details--show {
+      animation: none;
+    }
+
+    .recipe__details--hide {
+      animation: none;
+    }
+
+    .recipe__details--show .face--back {
+      transform: translateX(19px);
+      opacity: 1;
+    }
+
+    .face--back {
+      width: 330px;
+      height: 230px;
+      z-index: 1;
+    }
+  }
+
+  /*Tablet*/
+  @media (min-width: 481px) 
+    and (max-width: 1100px) {
+    .recipe__details--show {
+      animation: none;
+    }
+
+    .recipe__details--hide {
+      animation: none;
+    }
+
+    .recipe__details--show .face--back {
+      transform: translateX(19px);
+      opacity: 1;
+    }
+
+    .face--back {
+      width: 330px;
+      height: 230px;
+      z-index: 1;
+    }
+  }
 `;

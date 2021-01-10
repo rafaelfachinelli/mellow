@@ -6,6 +6,8 @@ import EksellDisplaySmallWoff from '../assets/fonts/EksellDisplay-Small.woff';
 import EksellDisplayMediumOtf from '../assets/fonts/EksellDisplay-Medium.otf';
 import EksellDisplayMediumWoff from '../assets/fonts/EksellDisplay-Medium.woff';
 
+import OpenSansRegularTtf from '../assets/fonts/OpenSans-Regular.ttf';
+
 export default createGlobalStyle`
   :root {
     --color-red: #DF3558;
@@ -38,7 +40,7 @@ export default createGlobalStyle`
   }
 
   body, input, button {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
   }
 
   ::selection {
@@ -47,7 +49,7 @@ export default createGlobalStyle`
 
   @font-face {
     font-family: 'EksellDisplaySmall';
-    src: 
+    src:
       local('EksellDisplaySmall'),
       url(${EksellDisplaySmallOtf}) format('otf'),
       url(${EksellDisplaySmallWoff}) format('woff');
@@ -63,5 +65,37 @@ export default createGlobalStyle`
       url(${EksellDisplayMediumWoff}) format('woff');
     font-weight: 400;
     font-style: normal;
+  }
+
+  /*Phone*/
+  @media (min-width: 320px) 
+    and (max-width: 480px) {
+    :root {
+      font-size: 43.75%;
+    }
+  }
+
+  /*Tablet*/
+  @media (min-width: 481px) 
+    and (max-width: 1100px) {
+    :root {
+      font-size: 50%;
+    }
+  }
+
+  /*Desktop*/
+  @media (min-width: 1101px)
+    and (max-width: 1600px) {
+    :root {
+      font-size: 56.25%;
+    }
+  }
+
+  /*Ultra*/
+  @media (min-width: 1101px)
+    and (max-width: 1600px) {
+    :root {
+      font-size: 62.5%;
+    }
   }
 `;

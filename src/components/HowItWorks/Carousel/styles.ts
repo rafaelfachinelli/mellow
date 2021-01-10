@@ -36,4 +36,49 @@ export const Container = styled.div`
     color: var(--color-text-lighter);
     font-size: 2rem;
   }
+
+  /*Phone*/
+  @media (min-width: 320px) 
+    and (max-width: 480px) {
+    .work__image img {
+      display: none;
+    }
+
+    .work__content {
+      max-width: 400px;
+      margin: 0 1rem;
+    }
+  }
+
+  /*Tablet*/
+  @media (min-width: 481px) 
+    and (max-width: 1100px) {
+    .work {
+      padding-left: 1rem;
+    }
+
+    .work__image img {
+      width: 200px;
+      height: 256px;
+    }
+
+    .work__content {
+      max-width: 400px;
+      margin: 0 1.5rem;
+    }
+  }
+
+  /*Desktop*/
+  @media (min-width: 1101px)
+    and (max-width: 1600px) {
+    .work__image img {
+      width: 400px;
+      height: 512px;
+    }
+
+    .work__content {
+      max-width: 550px;
+      margin-left: 7rem;
+    }
+  }
 `;

@@ -4,7 +4,7 @@ import { Container } from './styles';
 
 export default function Plan(props) {
   return (
-    <Container>
+    <Container className='plan'>
       <h1 className='plan__name'>{props.name}</h1>
       <p className='plan__trial'>{props.trial} Days trial</p>
       <div className='plan__banner'>

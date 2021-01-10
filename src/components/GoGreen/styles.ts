@@ -7,8 +7,45 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
 
-  #gogreen img {
+  .gogreen__image {
     max-width: 650px;
     margin-bottom: 20rem;
+  }
+
+  /*Phone*/
+  @media (min-width: 320px) 
+    and (max-width: 480px) {
+      
+    height: 60rem;
+    flex-wrap: wrap;
+    padding-left: 0;
+    
+    .gogreen__image {
+      display: none;
+    }
+  }
+
+  /*Tablet*/
+  @media (min-width: 481px) 
+    and (max-width: 1100px) {
+  
+    height: 60rem;
+    padding-left: 0;
+    
+    .gogreen__image {
+      display: none;
+    }
+  }
+
+  /*Desktop*/
+  @media (min-width: 1101px)
+    and (max-width: 1600px) {
+
+    height: 75rem;
+
+    .gogreen__image {
+      max-width: 450px;
+      margin-bottom: 5rem;
+    }
   }
 `;
