@@ -82,7 +82,7 @@ export const Container = styled.div`
     outline: none;
   }
 
-  .footer__social img + img {
+  .footer__social a + a {
     margin-left: 3rem;
   }
 

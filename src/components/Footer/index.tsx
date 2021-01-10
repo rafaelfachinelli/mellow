@@ -12,10 +12,18 @@ export default function Footer() {
       <div className='footer__navigator'>
         <nav className='footer__nav'>
           <ul className='footer__list'>
-            <li className='footer__item'>ABOUT US</li>
-            <li className='footer__item'>CONTACT</li>
-            <li className='footer__item'>GO GREEN</li>
-            <li className='footer__item'>TERMS & CONDITIONS</li>
+            <li className='footer__item'>
+              <a href="#goGreen">ABOUT US</a>
+            </li>
+            <li className='footer__item'>
+              <a href="#pricing">CONTACT</a>
+            </li>
+            <li className='footer__item'>
+              <a href="#goGreen">GO GREEN</a>
+            </li>
+            <li className='footer__item'>
+              <a href="#pricing">TERMS & CONDITIONS</a>
+            </li>
           </ul>
         </nav>
         <div className='footer__logo'>
@@ -32,10 +40,18 @@ export default function Footer() {
           </div>
         </div>
         <div className='footer__social'>
-          <img src={facebookImg} alt="Facebook"/>
-          <img src={twitterImg} alt="Twitter"/>
-          <img src={instagramImg} alt="Instagram"/>
-          <img src={pinterestImg} alt="Pinterest"/>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <img src={facebookImg} alt="Facebook"/>
+          </a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+            <img src={twitterImg} alt="Twitter"/>
+          </a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <img src={instagramImg} alt="Instagram"/>
+          </a>
+          <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer">
+            <img src={pinterestImg} alt="Pinterest"/>
+          </a>
         </div>
         <p className='footer__copyright'>
           Lorem ipsum dolor sit amet, consectetur adipiscing
