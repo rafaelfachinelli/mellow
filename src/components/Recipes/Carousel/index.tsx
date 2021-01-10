@@ -2,6 +2,8 @@ import Slick from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+import Recipe from './Recipe';
+
 import recipe0Img from '../../../images/Recipes/Carousel/recipe_0.png';
 import recipe1Img from '../../../images/Recipes/Carousel/recipe_1.png';
 import recipe2Img from '../../../images/Recipes/Carousel/recipe_2.png';
@@ -34,10 +36,6 @@ export default function Carousel() {
     },
   ];
 
-  function recipeClick(e) {
-    e.target.parentElement.parentElement.parentElement.classList.toggle('recipe__details');
-  }
-
   return (
     <Container>
       <Slick
@@ -50,134 +48,78 @@ export default function Carousel() {
         pauseOnFocus
         variableWidth
       >
-        <div className='recipe' onClick={recipeClick}>
-          <div className='recipe__face face--front'>
-            <img src={recipe0Img} alt="Recipe 0"/>
-            <div className='recipe__face face--back'>
-              <h1 className='recipe__name'>Recipe Name Goes Here</h1>
-              <p className='recipe__description'>
-                Culpa qui officia deserunt mollit anim id est laborum. 
-                Sed ut perspiciatis unde omnis iste natus error sit 
-                voluptartem accusantium doloremque laudantium.
-              </p>
-              <div className='recipe__button'>
-                <button>GO TO RECIPE</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className='recipe' onClick={recipeClick}>
-          <div className='recipe__face face--front'>
-            <img src={recipe1Img} alt="Recipe 1"/>
-            <div className='recipe__face face--back'>
-              <h1 className='recipe__name'>Recipe Name Goes Here</h1>
-              <p className='recipe__description'>
-                Culpa qui officia deserunt mollit anim id est laborum. 
-                Sed ut perspiciatis unde omnis iste natus error sit 
-                voluptartem accusantium doloremque laudantium.
-              </p>
-              <div className='recipe__button'>
-                <button>GO TO RECIPE</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className='recipe' onClick={recipeClick}>
-          <div className='recipe__face face--front'>
-            <img src={recipe2Img} alt="Recipe 0"/>
-            <div className='recipe__face face--back'>
-              <h1 className='recipe__name'>Recipe Name Goes Here</h1>
-              <p className='recipe__description'>
-                Culpa qui officia deserunt mollit anim id est laborum. 
-                Sed ut perspiciatis unde omnis iste natus error sit 
-                voluptartem accusantium doloremque laudantium.
-              </p>
-              <div className='recipe__button'>
-                <button>GO TO RECIPE</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className='recipe' onClick={recipeClick}>
-          <div className='recipe__face face--front'>
-            <img src={recipe3Img} alt="Recipe 0"/>
-            <div className='recipe__face face--back'>
-              <h1 className='recipe__name'>Recipe Name Goes Here</h1>
-              <p className='recipe__description'>
-                Culpa qui officia deserunt mollit anim id est laborum. 
-                Sed ut perspiciatis unde omnis iste natus error sit 
-                voluptartem accusantium doloremque laudantium.
-              </p>
-              <div className='recipe__button'>
-                <button>GO TO RECIPE</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className='recipe' onClick={recipeClick}>
-          <div className='recipe__face face--front'>
-            <img src={recipe0Img} alt="Recipe 0"/>
-            <div className='recipe__face face--back'>
-              <h1 className='recipe__name'>Recipe Name Goes Here</h1>
-              <p className='recipe__description'>
-                Culpa qui officia deserunt mollit anim id est laborum. 
-                Sed ut perspiciatis unde omnis iste natus error sit 
-                voluptartem accusantium doloremque laudantium.
-              </p>
-              <div className='recipe__button'>
-                <button>GO TO RECIPE</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className='recipe' onClick={recipeClick}>
-          <div className='recipe__face face--front'>
-            <img src={recipe1Img} alt="Recipe 0"/>
-            <div className='recipe__face face--back'>
-              <h1 className='recipe__name'>Recipe Name Goes Here</h1>
-              <p className='recipe__description'>
-                Culpa qui officia deserunt mollit anim id est laborum. 
-                Sed ut perspiciatis unde omnis iste natus error sit 
-                voluptartem accusantium doloremque laudantium.
-              </p>
-              <div className='recipe__button'>
-                <button>GO TO RECIPE</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className='recipe' onClick={recipeClick}>
-          <div className='recipe__face face--front'>
-            <img src={recipe2Img} alt="Recipe 0"/>
-            <div className='recipe__face face--back'>
-              <h1 className='recipe__name'>Recipe Name Goes Here</h1>
-              <p className='recipe__description'>
-                Culpa qui officia deserunt mollit anim id est laborum. 
-                Sed ut perspiciatis unde omnis iste natus error sit 
-                voluptartem accusantium doloremque laudantium.
-              </p>
-              <div className='recipe__button'>
-                <button>GO TO RECIPE</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className='recipe' onClick={recipeClick}>
-          <div className='recipe__face face--front'>
-            <img src={recipe3Img} alt="Recipe 0"/>
-            <div className='recipe__face face--back'>
-              <h1 className='recipe__name'>Recipe Name Goes Here</h1>
-              <p className='recipe__description'>
-                Culpa qui officia deserunt mollit anim id est laborum. 
-                Sed ut perspiciatis unde omnis iste natus error sit 
-                voluptartem accusantium doloremque laudantium.
-              </p>
-              <div className='recipe__button'>
-                <button>GO TO RECIPE</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Recipe
+          image={recipe0Img}
+          name='Recipe Name Goes Here'
+          description='
+            Culpa qui officia deserunt mollit anim id est laborum. 
+            Sed ut perspiciatis unde omnis iste natus error sit 
+            voluptartem accusantium doloremque laudantium.
+          '
+        />
+        <Recipe
+          image={recipe1Img}
+          name='Recipe Name Goes Here'
+          description='
+            Culpa qui officia deserunt mollit anim id est laborum. 
+            Sed ut perspiciatis unde omnis iste natus error sit 
+            voluptartem accusantium doloremque laudantium.
+          '
+        />
+        <Recipe
+          image={recipe2Img}
+          name='Recipe Name Goes Here'
+          description='
+            Culpa qui officia deserunt mollit anim id est laborum. 
+            Sed ut perspiciatis unde omnis iste natus error sit 
+            voluptartem accusantium doloremque laudantium.
+          '
+        />
+        <Recipe
+          image={recipe3Img}
+          name='Recipe Name Goes Here'
+          description='
+            Culpa qui officia deserunt mollit anim id est laborum. 
+            Sed ut perspiciatis unde omnis iste natus error sit 
+            voluptartem accusantium doloremque laudantium.
+          '
+        />
+        <Recipe
+          image={recipe0Img}
+          name='Recipe Name Goes Here'
+          description='
+            Culpa qui officia deserunt mollit anim id est laborum. 
+            Sed ut perspiciatis unde omnis iste natus error sit 
+            voluptartem accusantium doloremque laudantium.
+          '
+        />
+        <Recipe
+          image={recipe1Img}
+          name='Recipe Name Goes Here'
+          description='
+            Culpa qui officia deserunt mollit anim id est laborum. 
+            Sed ut perspiciatis unde omnis iste natus error sit 
+            voluptartem accusantium doloremque laudantium.
+          '
+        />
+        <Recipe
+          image={recipe2Img}
+          name='Recipe Name Goes Here'
+          description='
+            Culpa qui officia deserunt mollit anim id est laborum. 
+            Sed ut perspiciatis unde omnis iste natus error sit 
+            voluptartem accusantium doloremque laudantium.
+          '
+        />
+        <Recipe
+          image={recipe3Img}
+          name='Recipe Name Goes Here'
+          description='
+            Culpa qui officia deserunt mollit anim id est laborum. 
+            Sed ut perspiciatis unde omnis iste natus error sit 
+            voluptartem accusantium doloremque laudantium.
+          '
+        />
       </Slick>
     </Container>
   )
