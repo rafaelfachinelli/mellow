@@ -19,6 +19,10 @@ export const Container = styled.div`
     margin-bottom: 7rem;
   }
 
+  .footer__navigator img {
+    cursor: pointer;
+  }
+
   .footer__list {
     display: flex;
     list-style: none;
@@ -28,6 +32,15 @@ export const Container = styled.div`
     color: var(--color-text-lighter);
     font-size: 1.8rem;
     font-weight: 600;
+  }
+
+  .footer__item a {
+    transition: .2s;
+    cursor: pointer;
+  }
+
+  .footer__item a:hover {
+    color: var(--color-primary);
   }
 
   .footer__item + .footer__item{
@@ -72,14 +85,26 @@ export const Container = styled.div`
     width: 124px;
     height: 46px;
     margin-left: .5rem;
-
-    background: var(--color-background-button);
+    transition: .2s ease-in-out;
+    
+    background-image: linear-gradient(var(--color-background-button) 50%, var(--color-text-title));
+    background-size: 200% 200%;
+    background-position: top left;
     color: var(--color-text-darker);
     font-size: 1.4rem;
     font-weight: 600;
     border: none;
     border-radius: 0 1rem 1rem 0;
     outline: none;
+    cursor: pointer;
+
+    &:hover {
+      background-position: bottom right;
+    }
+  }
+
+  .footer__social a {
+    cursor: pointer;
   }
 
   .footer__social a + a {

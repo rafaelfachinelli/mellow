@@ -7,13 +7,13 @@ import profileImg from '../../images/Navigator/profile.jpg';
 
 export default function Navigator() {
   return (
-    <Container id='nav'>
+    <Container>
       <Link
         to='pricing'
         smooth
         duration={500}
       >
-        <img src={logoImg} alt="Mellow"/>
+        <img className='navigator__logo' src={logoImg} alt="Mellow"/>
       </Link>
       <nav className='nav'>
         <ul className='nav__list'>

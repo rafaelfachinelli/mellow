@@ -14,6 +14,10 @@ export const Container = styled.div`
 
   background: var(--color-primary);
 
+  .navigator__logo {
+    cursor: pointer;
+  }
+
   .nav {
     max-width: 560px;
     width: 100%;
@@ -29,14 +33,22 @@ export const Container = styled.div`
   }
 
   .list__item a {
+    transition: .2s;
+
     color: var(--color-text-lighter);
     text-decoration: none;
     font-size: 1.8rem;
     font-weight: 600;
+    cursor: pointer;
+
+    &:hover {
+      color: var(--color-text-darker);
+    }
   }
 
-  .item__active {
-    border-bottom: 2px solid #fff;
+  .list__item .item__active {
+    color: var(--color-text-darker);
+    border-bottom: 2px solid var(--color-text-darker);
   }
 
   .list__profile img {
