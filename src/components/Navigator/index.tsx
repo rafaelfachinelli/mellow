@@ -12,7 +12,6 @@ export default function Navigator() {
         to='pricing'
         smooth
         duration={500}
-        offset={50}
       >
         <img src={logoImg} alt="Mellow"/>
       </Link>
@@ -49,7 +48,6 @@ export default function Navigator() {
               spy
               smooth
               duration={500}
-              offset={50}
             >
               Pricing
             </Link>

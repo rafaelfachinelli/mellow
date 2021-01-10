@@ -48,7 +48,6 @@ export default function Footer() {
               to="pricing"
               smooth
               duration={500}
-              offset={50}
             >
               TERMS & CONDITIONS
             </Link>
@@ -60,7 +59,6 @@ export default function Footer() {
             to='pricing'
             smooth
             duration={500}
-            offset={50}
           >
             <img src={logoImg} alt="Mellow"/>
           </Link>
