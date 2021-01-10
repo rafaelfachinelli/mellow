@@ -35,6 +35,10 @@ export const Container = styled.div`
     font-weight: 600;
   }
 
+  .item__active {
+    border-bottom: 2px solid #fff;
+  }
+
   .list__profile img {
     width: 73px;
     height: 73px;

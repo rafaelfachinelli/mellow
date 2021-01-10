@@ -19,6 +19,7 @@ export default function Footer() {
               to="goGreen"
               smooth
               duration={500}
+              offset={100}
             >
               ABOUT US
             </Link>
@@ -37,6 +38,7 @@ export default function Footer() {
               to="goGreen"
               smooth
               duration={500}
+              offset={100}
             >
               GO GREEN
             </Link>

@@ -20,7 +20,9 @@ export default function Navigator() {
         <ul className='nav__list'>
           <li className='list__item'>
             <Link
+              activeClass='item__active'
               to="recipes"
+              spy
               smooth
               duration={500}
               offset={70}
@@ -30,16 +32,21 @@ export default function Navigator() {
           </li>
           <li className='list__item'>
             <Link
+              activeClass='item__active'
               to="goGreen"
+              spy
               smooth
               duration={500}
+              offset={100}
             >
               Go Green
             </Link>
           </li>
           <li className='list__item'>
             <Link
+              activeClass='item__active'
               to="pricing"
+              spy
               smooth
               duration={500}
               offset={50}
@@ -49,7 +56,9 @@ export default function Navigator() {
           </li>
           <li className='list__item'>
             <Link
+              activeClass='item__active'
               to="howItWorks"
+              spy
               smooth
               duration={500}
               offset={100}
