@@ -25,7 +25,7 @@
 ## :eye_speech_bubble: **Demo**
 
 <p align="center">
-  <kbd><img alt="Mellow in Desktop" src=".github/desktop__demo.gif""/></kbd>
+  <kbd><img alt="Mellow in Ultra Wide" src=".github/ultra__demo.gif""/></kbd>
 <p>
   
 ---
