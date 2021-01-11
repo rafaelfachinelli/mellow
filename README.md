@@ -47,7 +47,7 @@
 ---
 ## :information_source: About
 
-...
+Landing page developed as a test, it has carousels and a complete business presentation.
 
 ---
 ## :memo: **Tasks**
