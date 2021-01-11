@@ -7,6 +7,8 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
 
+  background: #f8f8f8f8;
+
   .gogreen__image {
     max-width: 650px;
     margin-bottom: 20rem;
