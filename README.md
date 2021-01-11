@@ -34,6 +34,10 @@
 |:---:|
 |<kbd>![Desktop](.github/desktop_demo.gif)</kbd>|
 
+|:iphone: Tablet|
+|:---:|
+|<kbd>![Tablet](.github/tablet_demo.gif)</kbd>|
+
 |:iphone: Mobile|
 |:---:|
 |<kbd>![Desktop](.github/mobile_demo.gif)</kbd>|
