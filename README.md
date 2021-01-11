@@ -24,11 +24,21 @@
 ---
 ## :eye_speech_bubble: **Demo**
 
-<p align="center">
-  <kbd><img alt="Mellow in Ultra Wide" src=".github/ultra_demo.gif""/></kbd>
-  <kbd><img alt="Mellow in Desktop" src=".github/desktop_demo.gif""/></kbd>
-  <kbd><img alt="Mellow in Mobile" src=".github/mobile_demo.gif""/></kbd>
-<p>
+<div align="center">
+  
+|:globe_with_meridians: Ultra Wide|
+|:---:|
+|<kbd>![Ultra Wide](.github/desktop_demo.gif)</kbd>|
+
+|:globe_with_meridians: Desktop|
+|:---:|
+|<kbd>![Desktop](.github/desktop_demo.gif)</kbd>|
+
+|:globe_with_meridians: Mobile|
+|:---:|
+|<kbd>![Desktop](.github/mobile_demo.gif)</kbd>|
+
+<div>
   
 ---
 ## :information_source: About
