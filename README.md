@@ -26,15 +26,15 @@
 
 <div align="center">
   
-|:globe_with_meridians: Ultra Wide|
+|:desktop_computer: Ultra Wide|
 |:---:|
 |<kbd>![Ultra Wide](.github/ultra_demo.gif)</kbd>|
 
-|:globe_with_meridians: Desktop|
+|:computer: Desktop|
 |:---:|
 |<kbd>![Desktop](.github/desktop_demo.gif)</kbd>|
 
-|:globe_with_meridians: Mobile|
+|:iphone: Mobile|
 |:---:|
 |<kbd>![Desktop](.github/mobile_demo.gif)</kbd>|
 
