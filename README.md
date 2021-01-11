@@ -28,7 +28,7 @@
   
 |:globe_with_meridians: Ultra Wide|
 |:---:|
-|<kbd>![Ultra Wide](.github/desktop_demo.gif)</kbd>|
+|<kbd>![Ultra Wide](.github/ultra_demo.gif)</kbd>|
 
 |:globe_with_meridians: Desktop|
 |:---:|
