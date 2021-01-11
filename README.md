@@ -38,7 +38,7 @@
 |:---:|
 |<kbd>![Desktop](.github/mobile_demo.gif)</kbd>|
 
-<div>
+</div>
   
 ---
 ## :information_source: About
