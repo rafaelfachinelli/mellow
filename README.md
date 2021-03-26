@@ -144,8 +144,7 @@ The following tools is used to build this project:
 ## :balance_scale: **License**
 
 <div align="center">
-
-Copyright © 2021 [Rafael Fachinelli](https://github.com/rafaelfachinelli).<br />
-This project is licensed by [MIT](./LICENSE).
+  
+[![License](https://github.com/rafaelfachinelli/rafaelfachinelli/blob/master/.github/license.svg)](./LICENSE)
 
 </div>
