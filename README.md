@@ -1,150 +1,128 @@
 <p align="center">
-  <img alt="Mellow" src=".github/banner.svg" width="350px"/>
-<p>
-
-<p align="center"> 
-  <img alt="Repository Size" src="https://img.shields.io/github/repo-size/rafaelfachinelli/mellow?color=2BCFA2&style=for-the-badge">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rafaelfachinelli/mellow?color=2BCFA2&style=for-the-badge">
-  <a href="https://github.com/rafaelfachinelli">
-    <img alt="Developed by Rafael Fachinelli" src="https://img.shields.io/badge/Developer-Rafael_Fachinelli-%2BCFA2?color=2BCFA2&style=for-the-badge">
-  </a>
-  <img alt="Project License" src="https://img.shields.io/github/license/rafaelfachinelli/mellow?color=2BCFA2&style=for-the-badge"/>
-<p>
+  <img alt="Mellow" src=".github/banner.svg" width="400px"/>
+</p>
 
 <p align="center">
- <a href="#eye_speech_bubble-demo">Demo</a> •
- <a href="#information_source-about">About</a> •
- <a href="#memo-tasks">Tasks</a> •
- <a href="#arrow_forward-run">Run</a> •
- <a href="#hammer_and_wrench-technologies">Technologies</a> •
- <a href="#boy-author">Author</a> •
- <a href="#balance_scale-license">License</a>
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/rafaelfachinelli/mellow?color=3498db&style=for-the-badge">
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/rafaelfachinelli/mellow?color=3498db&style=for-the-badge">
+  <a href="https://rafaelfachinelli.com">
+    <img alt="Developed by Rafael Fachinelli" src="https://img.shields.io/badge/Developer-Rafael_Fachinelli-3498db?style=for-the-badge">
+  </a>
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-3498db?style=for-the-badge">
+</p>
+
+<p align="center">
+  <a href="#eye_speech_bubble-preview">Preview</a> •
+  <a href="#information_source-about">About</a> •
+  <a href="#memo-tasks">Tasks</a> •
+  <a href="#arrow_forward-run">Run</a> •
+  <a href="#hammer_and_wrench-technologies">Technologies</a> •
+  <a href="#boy-author">Author</a> •
+  <a href="#balance_scale-license">License</a>
 </p>
 
 ---
-## :eye_speech_bubble: **Demo**
+
+## :eye_speech_bubble: Preview
 
 <div align="center">
-  
-|:desktop_computer: Ultra Wide|
-|:---:|
-|<kbd>![Ultra Wide](.github/ultra_demo.gif)</kbd>|
 
-|:computer: Desktop|
+|Ultra wide|
 |:---:|
-|<kbd>![Desktop](.github/desktop_demo.gif)</kbd>|
+|<kbd><img src=".github/ultra_demo.gif" alt="Ultra wide"/></kbd>|
 
-|:iphone: Tablet|
-|:---:|
-|<kbd>![Tablet](.github/tablet_demo.gif)</kbd>|
-
-|:iphone: Mobile|
-|:---:|
-|<kbd>![Desktop](.github/mobile_demo.gif)</kbd>|
+|Desktop|Tablet|Mobile|
+|:---:|:---:|:---:|
+|<kbd><img src=".github/desktop_demo.gif" alt="Desktop"/></kbd>|<kbd><img src=".github/tablet_demo.gif" alt="Tablet"/></kbd>|<kbd><img src=".github/mobile_demo.gif" alt="Mobile" width="200px"/></kbd>|
 
 </div>
-  
+
 ---
+
 ## :information_source: About
 
-Landing page developed as a test, it has carousels and a complete business presentation.
+🍈 A landing page built as a technical test: a complete business presentation for a meal-kit brand, with carousels of recipes, pricing plans, how it works, a go-green section and an app download call, plus smooth scrolling between sections. Responsive from mobile to ultra-wide screens.
+
+Built in 2021.
 
 ---
-## :memo: **Tasks**
+
+## :memo: Tasks
 
 <div align="center">
 <details>
-<summary>Click to View</summary>
+<summary>Click to view</summary>
 
 |State|Task|
 |:---:|:---|
-|:heavy_check_mark:|Initial Structure|
-|:heavy_check_mark:|Create a global CSS|
-|:heavy_check_mark:|Create Nagivator component|
-|:heavy_check_mark:|Create Button component|
-|:heavy_check_mark:|Create Pricing component|
-|:heavy_check_mark:|Create Recipes component|
-|:heavy_check_mark:|Create Recipe component|
-|:heavy_check_mark:|Create GoGreen component|
-|:heavy_check_mark:|Create HowItWorks component|
-|:heavy_check_mark:|Create DownloadApp component|
-|:heavy_check_mark:|Create Footer component|
-|:heavy_check_mark:|Create react routes|
-|:heavy_check_mark:|Create Landing page|
-|:heavy_check_mark:|Responsive design: tablet|
-|:heavy_check_mark:|Responsive design: mobile|
-|:heavy_check_mark:|Responsive design: desktop|
-|:heavy_check_mark:|Responsive design: ultra wide|
+|:heavy_check_mark:|Initial structure and global CSS|
+|:heavy_check_mark:|Navigator and Button components|
+|:heavy_check_mark:|Pricing component|
+|:heavy_check_mark:|Recipes carousel and Recipe component|
+|:heavy_check_mark:|GoGreen, HowItWorks and DownloadApp sections|
+|:heavy_check_mark:|Footer|
+|:heavy_check_mark:|Routes and landing page|
+|:heavy_check_mark:|Responsive: mobile, tablet, desktop and ultra wide|
 
 </details>
 </div>
 
 ---
-## :arrow_forward: **Run**
 
-### :desktop_computer: **WEB Responsive**
+## :arrow_forward: Run
 
-<details>
-  <summary><i>with <b>npm</b></i></summary>
-  
-  ```bash
-  # Install dependencies
-  $ npm install
+You need [Node.js](https://nodejs.org/) and [Yarn](https://yarnpkg.com/). In the project folder:
 
-  # Start development server
-  $ npm start
-  ```
-  
-</details>
+```bash
+# Install dependencies
+yarn
 
-<details>
-  <summary><i>with <b>yarn</b></i></summary>
-  
-  ```bash
-  # Install dependencies
-  $ yarn
+# Start the development server
+yarn start
+```
 
-  # Start development server
-  $ yarn start
-
-  ```
-
-</details>
-
-> ⚠️ The development server will start on port:3000 - Access <http://localhost:3000>
+> The app opens at <http://localhost:3000>.
 
 ---
-## :hammer_and_wrench: **Technologies**
 
-The following tools is used to build this project:
+## :hammer_and_wrench: Technologies
 
 <div align="center">
 
-|:globe_with_meridians: Web|
+|Web|
 |:---:|
-|[HTML5]()|
-|[CSS3]()|
-|[TypeScript](https://www.typescriptlang.org)|
-|[React](https://reactjs.org)|
-|[React Slick](https://react-slick.neostack.com)|
-|[React Scroll](https://www.npmjs.com/package/react-scroll)|
+|[React](https://react.dev/)|
+|[TypeScript](https://www.typescriptlang.org/)|
+|[styled-components](https://styled-components.com/)|
+|[React Slick](https://react-slick.neostack.com/)|
+|[React Scroll](https://github.com/fisshy/react-scroll)|
+|[React Router](https://reactrouter.com/)|
 
 </div>
 
 ---
-## :boy: **Author**
+
+## :boy: Author
 
 <div align="center">
-  
-[![Author](https://github.com/rafaelfachinelli/rafaelfachinelli/blob/master/.github/author.svg)](https://www.linkedin.com/in/rafaelfachinelli/)
+
+<a href="https://rafaelfachinelli.com">
+  <img src="https://github.com/rafaelfachinelli.png" width="100px" alt="Rafael Fachinelli"/>
+  <br/>
+  <sub><b>Rafael Fachinelli</b></sub>
+</a>
+
+Tech Lead and software engineer. Get in touch!
+
+[![Portfolio](https://img.shields.io/badge/-rafaelfachinelli.com-3498db?style=flat-square&logo=googlechrome&logoColor=white)](https://rafaelfachinelli.com)
+[![LinkedIn](https://img.shields.io/badge/-Rafael_Fachinelli-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafaelfachinelli/)
+[![GitHub](https://img.shields.io/badge/-rafaelfachinelli-000?style=flat-square&logo=github&logoColor=white)](https://github.com/rafaelfachinelli)
+[![E-mail](https://img.shields.io/badge/-rafael.l.a.fachinelli@gmail.com-ea4335?style=flat-square&logo=gmail&logoColor=white)](mailto:rafael.l.a.fachinelli@gmail.com)
 
 </div>
 
 ---
-## :balance_scale: **License**
 
-<div align="center">
-  
-[![License](https://github.com/rafaelfachinelli/rafaelfachinelli/blob/master/.github/license.svg)](./LICENSE)
+## :balance_scale: License
 
-</div>
+This project is under the [MIT license](./LICENSE).
